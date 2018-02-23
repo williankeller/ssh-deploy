@@ -6,8 +6,8 @@ _DEPLOY_APP_SERVER_DIR=""
 #SSH server address.
 _DEPLOY_SERVER=""
 
-#Remote repository configured in your git, origin is commonly used.
-_DEPLOY_REPO_REMOTE=""
+# List of folders to access.
+_DEPLOY_FOLDERS=""
 
 #Your local repository full path.
 _DEPLOY_PROJECT_DIR=""

@@ -18,9 +18,9 @@ function validate() {
 
     fi
 
-    if [ -z "${_DEPLOY_REPO_REMOTE}" ]; then
+    if [ -z "${_DEPLOY_FOLDERS}" ]; then
 
-    out_danger "Variable _DEPLOY_APP_SERVER_DIR unset" 1;
+    out_danger "Variable _DEPLOY_FOLDERS unset" 1;
     exit 1
 
     fi

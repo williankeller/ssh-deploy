@@ -29,7 +29,4 @@ bootstrap_core
 validate
 
 # Generate and push TAG.
-#build_tag
-
-# Access SSh and get TAG.
-get_tag
+mapping

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+_ARGUMENT="${1:-}"
+
 function bootstrap_autoload() {
 
   for _FILE in $@; do
