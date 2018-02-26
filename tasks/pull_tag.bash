@@ -11,7 +11,7 @@ function pull_tag() {
 
     out_info "Getting generated TAG for (${_FOLDER}) folder..." 1
 
-    ssh ${_DEPLOY_SERVER} "cd ${_LOCAL_PATH} && git fetch && git checkout ${_DEPLOY_TAG}" > /dev/null 2>&1
+    ssh ${_DEPLOY_SERVER} "cd ${_LOCAL_PATH} && git fetch && git checkout ${_DEPLOY_TAG}"
 
     out_check_status $? "Success checkout to (${_FOLDER}) by TAG: ${_DEPLOY_TAG}" "Error to retrieve ${_FOLDER} TAG." 1
 

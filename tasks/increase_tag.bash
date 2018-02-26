@@ -5,7 +5,7 @@ function increase_tag() {
     
     out_info "Retrieving TAG number..." 1
 
-    _DEPLOY_TAG_NUMBER=$(${_DEPLOY_GIT_IN_REPO} tag --list | wc -l)
+    _DEPLOY_TAG_NUMBER=$(${_DEPLOY_GIT_IN_REPO} tag --list | grep ${_DEPLOY_TAG} | wc -l)
 
     out_success "TAG position retrieve successfully!"
 
