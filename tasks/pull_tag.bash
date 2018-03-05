@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-# Access SSh and get TAG.
+# Access SSH and get TAG.
 function pull_tag() {
 
     local _LOCAL_PATH=${_DEPLOY_APP_SERVER_DIR}${_FOLDER}
 
-    out_info "--------------------------------------------" 1
+    out_info "=============================================" 1
     out_success "Starting SSH remote (${_FOLDER}) folder..."
 
 
